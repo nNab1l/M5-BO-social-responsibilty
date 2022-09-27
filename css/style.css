@@ -14,7 +14,7 @@ body{
     height: 100vh;
 }
 
-header{
+.header{
     max-width: 144rem;
     margin: auto;
     background: red;
@@ -72,13 +72,13 @@ header{
     
 }
 
-.container__form{
+.container__header{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 10rem;
+    padding: 4rem 10rem;
 }
 
-.container__form--signUp{
+.container__header--signUp{
     min-width: 25%;
     height: 5rem;
     font-size: 2rem;
@@ -87,7 +87,7 @@ header{
     background: purple;
 }
 
-.container__form--input{
+.container__header--input{
     width: 100%;
     font-size: 2rem;
     height: 5rem;
@@ -110,5 +110,24 @@ header{
     font-size: 3rem;
     z-index: 1;
     border-radius: 1.5rem;
+}
+
+.container__body{
+    display: flex;
+    max-width: 144rem;
+    flex-wrap: wrap;
+}
+
+.container__body--p{
+    width: 35%;
+    height: 50rem;
+    padding: 2rem;
+    background: yellow;
+}
+
+.container__body--figure{
+    width: 65%;
+    height: 50rem;
+    background: grey;
 }
 
