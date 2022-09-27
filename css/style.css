@@ -1,0 +1,114 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body{
+    font-size: 2rem;
+    height: 100vh;
+}
+
+header{
+    max-width: 144rem;
+    margin: auto;
+    background: red;
+}
+
+.header__nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+.header__figure--nav{
+    background: blue;
+    width: 15rem;
+}
+
+.figure__nav--img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.header__nav--ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav__listItem{
+    list-style: none;
+    border: 0.5rem solid black;
+    background: purple;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.nav__listItem--link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav__listItem--link:hover{
+    color: black;
+    transition: 0.6s;
+}
+
+.container{
+    max-width:144rem;
+    height: 90vh;
+    margin: auto;
+    background: green;
+    
+}
+
+.container__form{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+}
+
+.container__form--signUp{
+    min-width: 25%;
+    height: 5rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 1.5rem;
+    background: purple;
+}
+
+.container__form--input{
+    width: 100%;
+    font-size: 2rem;
+    height: 5rem;
+    padding: 1rem;
+    border: none;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    text-align: center;
+    position: relative;
+}
+
+.searchbar--logo{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 22rem;
+    padding-top: 1rem;
+    text-align: center;
+    background: blue;
+    font-size: 3rem;
+    z-index: 1;
+    border-radius: 1.5rem;
+}
+
