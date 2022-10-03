@@ -1,0 +1,259 @@
+*, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif;
+    background: white;
+}
+
+:root{
+    --primary-color: #9CC5A1;
+    --secondary-color: #eee;
+    --tertiary-color: #494949;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 15rem;
+    align-items: center;
+    height: 100vh;
+    background: var(--primary-color);
+    color: white;
+}
+
+
+img{
+    width: 70rem;
+    height: 35rem;
+    border-radius: 2.5%;
+}
+
+.info{
+    padding-right: 1.5rem;
+    width: 40ch;
+    font-size: 2.5rem;
+}
+
+.heading{
+    font-size: 3rem;
+    padding-bottom: 5rem;
+}
+
+
+.nav > figure{
+    display: flex;
+    flex-grow: 1;
+    padding: 10rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav > figure > img{
+    width: 40rem;
+    height: 20rem;
+    border-radius: 5%;
+}
+
+.button{
+    width: 20rem;
+    border: none;
+    height: 3.5rem;
+    background: #eee;
+    color: #9CC5A1;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.button:hover{
+    border: #eee 2px solid;
+    background: transparent;
+    color: #eee;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.page__front{
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.page__card{
+    background: var(--secondary-color);
+    width: 80rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    color: #707070;
+    flex-direction: column;
+}
+
+.page__heading{
+    font-size: 2.7rem;
+}
+
+.page__cards{
+    width: 60rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707070;
+    border-radius: 3rem;
+    background: var(--secondary-color);
+}
+
+
+
+
+.page__card{
+    background: var(--secondary-color);
+    width: 80rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    color: #707070;
+    flex-direction: column;
+}
+
+.page__heading{
+    font-size: 2.7rem;
+}
+
+
+
+.agenda__cards{
+    background: var(--secondary-color);
+    width: 66rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707070;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+
+.agenda__cards:hover{
+    border-left: #9CC5A1 66rem solid;
+    transition: 0.5s;
+    color: #eee;
+}
+
+.agenda__cards4:hover{
+    border-right: #9CC5A1 66rem solid;
+    transition: 0.5s;
+    color: #eee;
+}
+
+.agenda__cards2{
+    background: var(--secondary-color);
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    color: #707070;
+}
+
+
+.agenda__cards3{
+    background: var(--secondary-color);
+    width: 36rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707070;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+
+.agenda__cards4{
+    background: var(--secondary-color);
+    width: 60rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    color: #707070;
+}
+
+.agenda__img{
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 0rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.agenda__heading{
+    z-index: 3;
+    position: absolute;
+    margin-right: 20rem;
+}
+
+
+
+
+/* Agenda css
+
+/box 1
+
+background: var(--secondary-color);
+width: 60rem;
+height: 30rem;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #707070;
+border-top-left-radius: 3rem;
+border-bottom-left-radius: 3rem;
+
+/box 2
+
+background: var(--secondary-color);
+width: 30rem;
+height: 30rem;
+display: flex;
+justify-content: center;
+align-items: center;
+border-top-right-radius: 3rem;
+border-bottom-right-radius: 3rem;
+color: #707070;
+
+/image
+
+width: 30rem;
+height: 30rem;
+object-fit: cover;
+border-radius: 0rem;
+border-top-right-radius: 3rem;
+border-bottom-right-radius: 3rem;
