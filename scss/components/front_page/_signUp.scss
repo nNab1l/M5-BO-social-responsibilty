@@ -1,9 +1,10 @@
 @use "../../abstract/colors";
 
 .header__signUp{
-    min-width: 27rem;
+    min-width: 28rem;
     height: 5rem;
     font-size: 2rem;
+    color: colors.$grey;
     background: colors.$signUp-white;
     border: 0.2rem solid rgba(144,238,144, 1);
     border-radius: 1.5rem;
@@ -13,13 +14,13 @@
 }
 
 .header__signUp:hover{
-    color: white;
+    color: black;
     box-shadow: 0 0 20px rgba(144,238,144, 0.6);
     background-color: rgba(144,238,144, 1);
 }
 
 .header__input{
-    width: 27rem;
+    width: 100%;
     font-size: 2rem;
     height: 5rem;
     padding: 1rem;
@@ -37,9 +38,14 @@
     
 }
 
+.header__searchbar{
+    width: 50rem;
+    position: relative;
+}
 
 .searchbar__logo{
     position: absolute;
+    right: 0;
     width: 5rem;
     height: 5rem;
     margin-left: 22rem;

@@ -40,14 +40,14 @@
 
 .listItem__link{
     text-decoration: none;
-    color: #413F42;
+    color: colors.$grey;
     position: relative;
 }
 
 .listItem__link:after{
     content: "";
     position: absolute;
-    background: colors.$nav-hover;
+    background: #42855B;
     width: 0;
     height: 0.3rem;
     left: 0;
