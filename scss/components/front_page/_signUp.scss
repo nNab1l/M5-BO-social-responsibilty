@@ -1,0 +1,53 @@
+@use "../../abstract/colors";
+
+.header__signUp{
+    min-width: 27rem;
+    height: 5rem;
+    font-size: 2rem;
+    background: colors.$signUp-white;
+    border: 0.2rem solid rgba(144,238,144, 1);
+    border-radius: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 2rem rgba(144,238,144, 0.6);
+    transition: 0.3s;
+}
+
+.header__signUp:hover{
+    color: white;
+    box-shadow: 0 0 20px rgba(144,238,144, 0.6);
+    background-color: rgba(144,238,144, 1);
+}
+
+.header__input{
+    width: 27rem;
+    font-size: 2rem;
+    height: 5rem;
+    padding: 1rem;
+    padding-right: 6rem;
+    border: none;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    text-align: center;
+    position: relative;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    background: colors.$signUp-white;
+    box-shadow: 0 0 2rem rgba(144,238,144, 0.6);
+    border: 0.2rem solid rgba(144,238,144, 1);
+    
+}
+
+
+.searchbar__logo{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 22rem;
+    padding-top: 1rem;
+    text-align: center;
+    background: rgb(144,238,144);
+    font-size: 3rem;
+    z-index: 1;
+    border-radius: 1.5rem;
+}
+

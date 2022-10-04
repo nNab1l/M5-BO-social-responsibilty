@@ -1,0 +1,10 @@
+@use "reset.scss";
+@use "base.scss";
+@use "./components/front_page/header";
+@use "./components/front_page/signUp";
+@use "./components/front_page/body";
+@use "abstract/animations";
+@use "abstract/colors";
+@use "abstract/fonts";
+@use "abstract/mediaqueries";
+@use "abstract/mixins";
