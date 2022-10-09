@@ -1,4 +1,5 @@
 @use "../../abstract/colors";
+@use "../../abstract/mixins";
 
 .header{
     max-width: 144rem;
@@ -11,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 2rem;
+    padding: 0rem 2rem;
 }
 
 .header__figure{
@@ -19,20 +20,20 @@
     width: 15rem;
 }
 
-.figure__nav--img{
+.header__img{
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.header__nav--ul{
+.header__ul{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
 }
 
-.nav__listItem{
+.header__listItem{
     list-style: none;
     padding: 1rem;
     border-radius: 2rem;
@@ -63,3 +64,9 @@
     width: 100%;
 }
 
+.header__button{
+    width: 5rem;
+    height: 4rem;
+    font-size: 3rem;
+    @include mixins.flex;
+}

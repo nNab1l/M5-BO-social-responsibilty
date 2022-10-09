@@ -1,3 +1,9 @@
+@use "./colors";
+
+.header__button{
+    display: none;
+}
+
 @media  screen and (max-width: 75rem){ // 1200 pixels
 
     .container__header {
@@ -63,11 +69,67 @@
 
 @media  screen and (max-width: 53.123rem){ // 850 pixels
     
+
+    .header__listItem {
+        padding: 0rem;
+    }
+
     .header__signUp{
         width: 100%;
     }
 
     .header__searchbar{
         width: 100%;
+    }
+
+    .header__input{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 50rem){ // 800 pixels
+    .header__ul{
+        display: none;
+    }
+
+    .header__listItem:hover{
+            background: colors.$front_page--header;
+            border-radius: 0;
+    }
+
+    .listItem__link:after{
+        content: "";
+        background: none;
+    }
+
+    .header__button{
+        display: block;
+    }
+
+    .xMark{
+        display: none !important;
+    }
+
+    .header__nav--openMenu{
+        .bars{
+            display: none !important;
+        }
+
+        .xMark{
+            display: block !important; 
+        }
+
+            .header__ul{
+                width: 100vw;
+                height: 23rem;
+                padding-top: 1rem;
+                text-align: center;
+                display: block;
+                position: absolute;
+                top: 7rem;
+                left: 0;
+                background: white;
+                z-index: 2;
+            }
     }
 }
