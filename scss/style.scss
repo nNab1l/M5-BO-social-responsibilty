@@ -2,15 +2,13 @@
 @use "base.scss";
 @use "./components/front_page/header";
 @use "./components/front_page/signUp";
+@use "./components/signUp_page/login";
 @use "./components/front_page/body";
 @use "abstract/animations";
 @use "abstract/colors";
 @use "abstract/fonts";
 @use "abstract/mediaqueries";
 @use "abstract/mixins";
-
-// signup page
-
 
 // middle part
 @use "./main";

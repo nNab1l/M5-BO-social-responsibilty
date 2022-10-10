@@ -38,9 +38,33 @@
         </nav>
     </header>
     <main>
+        <article id="js--signUp" class="signUp">
+            <button id="js--closeSignUp" class="signUp__close" onclick="closeSignUp()"><i class="fa-solid fa-xmark close__signUpButton"></i></button>
+            <figure class="signUp__box">
+                <div id="btn" class="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </figure>
+            <h1 class="signUp__h1">Login Now</h1>
+            <form id="login" class="signUp__form">
+                <input class="signUp__input" placeholder="Enter Email" type="text" action="" required>
+                <input class="signUp__input" placeholder="Enter Password" type="text" action="" required>
+                <input class="signUp__checkbox" type="checkbox"><span>Remember Password</span>
+                <button class="signUp__btn" type="submit">Submit</button>
+            </form>
+            <form id="register" class="signUp__form">
+                <input class="signUp__input" placeholder="Firstname" type="text" action="" required>
+                <input class="signUp__input" placeholder="Lastname" type="text" action="" required>
+                <input class="signUp__input" placeholder="Enter Email" type="text" action="" required>
+                <input class="signUp__input" placeholder="Enter Password" type="text" action="" required>
+                <input class="signUp__checkbox" type="checkbox"><span>I agree to the terms & conditions</span>
+                <button class="signUp__btn" type="submit">Register</button>
+            </form>
+        </article>
+
         <section class="container">
             <header class="container__header">
-                <button class="header__signUp">Aanmelden als vrijwilliger</button>
+                <button class="header__signUp" onclick="signUp()">Aanmelden als vrijwilliger</button>
                 <button id="signUp" class="header__signUp" onclick="signUp()">Sign up</button>
                 <div class="header__searchbar">
                     <i class="fa-solid fa-magnifying-glass searchbar__logo"></i>

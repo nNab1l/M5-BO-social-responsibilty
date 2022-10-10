@@ -1,8 +1,9 @@
 @use "../../abstract/colors";
+@use "../../abstract/mixins";
 
 .container{
     max-width:144rem;
-    height: 62vh;
+    height: 30vh;
     margin: auto;
     background: colors.$background-body;
 }
@@ -18,16 +19,18 @@
 .container__body{
     display: flex;
     justify-content: center;
+    align-items: center;
     max-width: 144rem;
 }
 
 .container__p{
     width: 50%;
     height: 50rem;
-    padding: 2rem;
+    padding: 2rem 4rem;
     background: colors.$nav-hover;
     position: relative;
     box-shadow: 10px 10px 13px rgba(0,0,0,0.4);
+    @include mixins.flex;
 }
 
 .container__figure{

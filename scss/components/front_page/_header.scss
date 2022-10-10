@@ -2,7 +2,7 @@
 @use "../../abstract/mixins";
 
 .header{
-    max-width: 144rem;
+    width: 100%;
     margin: auto;
     background: colors.$front_page--header;
 }
