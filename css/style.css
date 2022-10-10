@@ -251,6 +251,10 @@ body {
 }
 @media screen and (max-width: 53.123rem) {
   .header__listItem {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 0.5rem;
+    font-size: 100%;
     padding: 0rem;
   }
   .header__signUp {
@@ -267,9 +271,14 @@ body {
   .header__ul {
     display: none;
   }
+  .header__listItem {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
   .header__listItem:hover {
     background: #D9F8C4;
-    border-radius: 0;
+    border-radius: 1rem;
+    padding-top: 1rem;
   }
   .listItem__link:after {
     content: "";
@@ -288,8 +297,9 @@ body {
     display: block !important;
   }
   .header__nav--openMenu .header__ul {
+    font-size: 130%;
     width: 100vw;
-    height: 23rem;
+    height: 32rem;
     padding-top: 1rem;
     text-align: center;
     display: block;
@@ -298,6 +308,7 @@ body {
     left: 0;
     background: white;
     z-index: 2;
+    box-shadow: 0 5px 1.2rem rgba(0, 0, 0, 0.2);
   }
 }
 *,

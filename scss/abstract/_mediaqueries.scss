@@ -71,6 +71,10 @@
     
 
     .header__listItem {
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 0.5rem;
+        font-size: 100%;
         padding: 0rem;
     }
 
@@ -92,10 +96,17 @@
         display: none;
     }
 
-    .header__listItem:hover{
+    .header__listItem{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        &:hover{
             background: colors.$front_page--header;
-            border-radius: 0;
+            border-radius: 1rem;
+            padding-top: 1rem;
+        }
     }
+
+    
 
     .listItem__link:after{
         content: "";
@@ -120,8 +131,9 @@
         }
 
             .header__ul{
+                font-size: 130%;
                 width: 100vw;
-                height: 23rem;
+                height: 32rem;
                 padding-top: 1rem;
                 text-align: center;
                 display: block;
@@ -130,6 +142,7 @@
                 left: 0;
                 background: white;
                 z-index: 2;
+                box-shadow: 0 5px 1.2rem rgba(0,0,0, 0.2) ;
             }
     }
 }
