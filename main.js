@@ -25,7 +25,6 @@ let formButton = document.getElementById("btn");
         }
 
 
-
 // This function open menubar on mobile
 const button = document.getElementById("js--openMenu");
 const addMenu = document.getElementsByClassName("header__nav")[0];
