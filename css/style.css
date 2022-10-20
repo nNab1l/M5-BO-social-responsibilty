@@ -315,8 +315,20 @@ span {
 }
 
 .footer__section {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.footer__logos {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  width: 1rem;
+}
+
+.footer__images {
+  height: 6rem;
+  padding: 1rem;
 }
 
 .form__ul {
@@ -338,7 +350,7 @@ span {
 
 .formulier {
   width: 30rem;
-  height: 25rem;
+  height: 30rem;
   background: lightslategray;
   display: flex;
   justify-content: flex-start;
@@ -405,6 +417,9 @@ span {
     width: 75rem;
     height: 40rem;
     background: grey;
+  }
+  .footer {
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 62.5rem) {
@@ -530,12 +545,6 @@ main {
   height: 100vh;
   background: var(--primary-color);
   color: white;
-}
-
-img {
-  width: 70rem;
-  height: 35rem;
-  border-radius: 2.5%;
 }
 
 .info {
