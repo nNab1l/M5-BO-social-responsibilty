@@ -1,0 +1,133 @@
+.agenda__cards{
+    background: var(--secondary-color);
+    width: 76rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707070;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+/*
+.agenda__cards:hover{
+    border-left: #9CC5A1 66rem solid;
+    transition: 0.5s;
+    color: #eee;
+}
+*/
+
+.agenda__cards4:hover{
+    border-right: #9CC5A1 76rem solid;
+    transition: 0.5s;
+    color: #eee;
+}
+
+.agenda__cards2{
+    background: var(--secondary-color);
+    width: 30rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    color: #707070;
+}
+
+
+.agenda__cards3{
+    background: var(--secondary-color);
+    width: 36rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707070;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+
+.agenda__cards4{
+    background: var(--secondary-color);
+    width: 70rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    color: #707070;
+}
+
+.agenda__img{
+    width: 30rem;
+    height: 40rem;
+    object-fit: cover;
+    border-radius: 0rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.agenda__img2{
+    width: 36rem;
+    height: 40rem;
+    object-fit: cover;
+    border-radius: 0rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+
+.agenda__heading{
+    z-index: 3;
+    left: 6rem;
+    position: relative;
+    bottom: 12rem;
+    font-size: 2.5rem;
+    width:300ch;
+}
+
+.agenda__paragraph{
+    z-index: 3;
+    right: 27rem;
+    position: relative;
+    top: 4rem;
+    width: 500ch;
+    font-size: 1.7rem;
+
+}
+
+.agenda__paragraph2{
+    z-index: 3;
+    right: 25rem;
+    position: relative;
+    top: 4rem;
+    width: 500ch;
+    font-size: 1.7rem;
+
+}
+
+.agenda__title{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    position: relative;
+    right: 45rem;
+    font-size: 3rem;
+    color: #707070;
+}
+
+.agenda__button{
+    position: relative;
+    top: 11.5rem;
+    right: 3rem;
+    border: none;
+    background: #9CC5A1;
+    width: 100%;
+    height: 4rem;
+    color: white;
+}
+
+
+
+
