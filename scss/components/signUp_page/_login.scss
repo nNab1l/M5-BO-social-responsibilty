@@ -1,0 +1,108 @@
+@use "../../abstract/colors";
+
+.signUp{
+    background: white;
+    width: 38rem;
+    height: 48rem;
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    box-shadow: 0 5px 1.2rem rgba(0,0,0, 0.2);
+    padding: 0.5rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    z-index: 1;
+    display: block;
+}
+
+.signUp__close{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    font-size: 150%;
+    border-radius: 1.5rem;
+    border: none;
+    margin: 1rem;
+}
+
+.signUp__box{
+    width: 22rem;
+    margin: 2.5rem 8rem;
+    position: relative; 
+    box-shadow: 0 0 2rem 9px #d7ffbc;
+    border-radius: 3rem;
+}
+
+.toggle-btn{
+    padding: 1rem 3rem;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+.btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 11rem;
+    height: 100%;
+    background: linear-gradient(to right, #90d861, #D9F8C4);
+    border-radius: 3rem;
+    transition: 0.5s;
+}
+
+.signUp__h1{
+    width: 100%;
+    text-align: center;
+}
+
+.signUp__form{
+    top: 16rem;
+    position: absolute;
+    width: 28rem;
+    transition: 0.5s;
+}
+
+.signUp__input{
+    width: 100%;
+    padding: 1rem 0;
+    margin: 0.5rem 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    background: transparent;
+}
+
+.signUp__checkbox{
+    margin: 3rem 1rem 3rem 0;
+}
+
+span{
+    color: #777;
+    font-size: 1.2rem;
+    bottom: 6.8rem;
+    position: absolute;
+}
+
+.signUp__btn{
+    width: 85%;
+    padding: 1rem;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #90d861, #D9F8C4);
+    border: none;
+    border-radius: 3rem;
+}
+
+#login{
+    left: 5rem;
+}
+
+#register{
+    top: 30%;
+    left: 45rem;
+}

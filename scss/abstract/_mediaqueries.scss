@@ -1,0 +1,152 @@
+@use "./colors";
+
+.header__button{
+    display: none;
+}
+
+@media  screen and (max-width: 75rem){ // 1200 pixels
+
+    .container__header {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2rem 5rem;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .header__signUp{
+        width: 38%;
+    }
+
+    .header__searchbar{
+        width: 85%;
+    }
+
+    .container__p{
+        width: 35rem;
+        height: 50rem;
+        padding: 2rem;
+        background: #FFF5E4;
+    }
+
+    .container__figure {
+        width: 75rem;
+        height: 40rem;
+        background: grey;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+}
+
+
+@media  screen and (max-width: 62.5rem) { // 1000 pixels
+    .container__header {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2rem 5rem;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .container__body {
+        display: flex;
+        justify-content: center;
+        max-width: 144rem;
+        flex-wrap: wrap;
+    }
+
+    .container__p {
+        width: 87rem;
+        height: 30rem;
+        padding: 2rem;
+        background: #FFF5E4;
+    }
+
+    .container__figure {
+        width: 88rem;
+        height: 40rem;
+        background: grey;
+    }
+}
+
+@media  screen and (max-width: 53.123rem){ // 850 pixels
+    
+
+    .header__listItem {
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 0.5rem;
+        font-size: 100%;
+        padding: 0rem;
+    }
+
+    .header__signUp{
+        width: 100%;
+    }
+
+    .header__searchbar{
+        width: 100%;
+    }
+
+    .header__input{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 50rem){ // 800 pixels
+    .header__ul{
+        display: none;
+    }
+
+    .header__listItem{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        &:hover{
+            background: colors.$front_page--header;
+            border-radius: 1rem;
+            padding-top: 1rem;
+        }
+    }
+
+    
+
+    .listItem__link:after{
+        content: "";
+        background: none;
+    }
+
+    .header__button{
+        display: block;
+    }
+
+    .xMark{
+        display: none !important;
+    }
+
+    .header__nav--openMenu{
+        .bars{
+            display: none !important;
+        }
+
+        .xMark{
+            display: block !important; 
+        }
+
+            .header__ul{
+                font-size: 130%;
+                width: 100vw;
+                height: 32rem;
+                padding-top: 1rem;
+                text-align: center;
+                display: block;
+                position: absolute;
+                top: 7rem;
+                left: 0;
+                background: white;
+                z-index: 2;
+                box-shadow: 0 5px 1.2rem rgba(0,0,0, 0.2) ;
+            }
+    }
+}
