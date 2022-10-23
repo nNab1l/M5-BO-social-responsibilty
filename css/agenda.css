@@ -38,11 +38,7 @@ main{
 }
 
 
-img{
-    width: 70rem;
-    height: 35rem;
-    border-radius: 2.5%;
-}
+
 
 .info{
     padding-right: 1.5rem;
@@ -145,7 +141,7 @@ img{
 
 
 .agenda__cards{
-    background: var(--secondary-color);
+    background: white;
     width: 76rem;
     height: 40rem;
     display: flex;
@@ -154,6 +150,7 @@ img{
     color: #707070;
     border-top-left-radius: 3rem;
     border-bottom-left-radius: 3rem;
+    box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.2);
 }
 /*
 .agenda__cards:hover{
@@ -164,13 +161,20 @@ img{
 */
 
 .agenda__cards4:hover{
-    border-right: #9CC5A1 76rem solid;
-    transition: 0.5s;
-    color: #eee;
+    width: 76rem;
+    transition: 0.3s;
+    border-right: 4rem solid #9CC5A1;
+}
+
+
+.agenda__cards:hover{
+    width: 80rem;
+    transition: 0.3s;
+    border-left: 4rem solid #9CC5A1;
 }
 
 .agenda__cards2{
-    background: var(--secondary-color);
+    background: white;
     width: 30rem;
     height: 40rem;
     display: flex;
@@ -179,11 +183,12 @@ img{
     border-top-right-radius: 3rem;
     border-bottom-right-radius: 3rem;
     color: #707070;
+    box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.2);
 }
 
 
 .agenda__cards3{
-    background: var(--secondary-color);
+    background: white;
     width: 36rem;
     height: 40rem;
     display: flex;
@@ -192,10 +197,11 @@ img{
     color: #707070;
     border-top-left-radius: 3rem;
     border-bottom-left-radius: 3rem;
+    box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.2);
 }
 
 .agenda__cards4{
-    background: var(--secondary-color);
+    background: white;
     width: 70rem;
     height: 40rem;
     display: flex;
@@ -204,6 +210,7 @@ img{
     border-top-right-radius: 3rem;
     border-bottom-right-radius: 3rem;
     color: #707070;
+    box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.2);
 }
 
 .agenda__img{
@@ -224,6 +231,13 @@ img{
     border-bottom-left-radius: 3rem;
 }
 
+.agenda__img3{
+    object-fit: contain;
+    border-radius: 0rem;
+}
+
+
+
 .agenda__heading{
     z-index: 3;
     left: 6rem;
@@ -235,7 +249,7 @@ img{
 
 .agenda__paragraph{
     z-index: 3;
-    right: 27rem;
+    right: 23rem;
     position: relative;
     top: 4rem;
     width: 500ch;
@@ -245,7 +259,7 @@ img{
 
 .agenda__paragraph2{
     z-index: 3;
-    right: 25rem;
+    right: 21rem;
     position: relative;
     top: 4rem;
     width: 500ch;
@@ -265,15 +279,52 @@ img{
 
 .agenda__button{
     position: relative;
-    top: 11.5rem;
-    right: 3rem;
+    top: 19;
+    left: 4.2rem;
     border: none;
-    background: #9CC5A1;
+    background: none;
     width: 100%;
     height: 4rem;
     color: white;
+    font-size: 2rem;
 }
 
+
+.agenda__button2{
+    position: relative;
+    top: 19;
+    right: 73rem;
+    border: none;
+    background: none;
+    width: 100%;
+    height: 4rem;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
+.agenda__date{
+    position: relative;
+    top: 15rem;
+    right: 56rem;
+    border: none;
+    background: none;
+    color:#707070;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+.agenda__date2{
+    position: relative;
+    top: 15rem;
+    right: 51rem;
+    border: none;
+    background: none;
+    color:#707070;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
 
 
 
