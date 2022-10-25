@@ -3,13 +3,12 @@
 @use "./components/front_page/header";
 @use "./components/front_page/signUp";
 @use "./components/signUp_page/login";
-@use "./components/front_page/body";
-@use "./footer";
+@use "./components/front_page/subHeading";
+@use "./components/main_page/main";
+@use "./components/footer_page/footer";
 @use "abstract/animations";
 @use "abstract/colors";
 @use "abstract/fonts";
 @use "abstract/mediaqueries";
 @use "abstract/mixins";
 
-// middle part
-@use "./main";

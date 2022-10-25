@@ -1,87 +1,3 @@
-*,
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    font-family: sans-serif;
-    background: white;
-}
-
-:root {
-    --primary-color: #9CC5A1;
-    --secondary-color: #eee;
-    --tertiary-color: #494949;
-}
-
-main {
-    height: 75vh;
-    width: 100%;
-}
-
-
-
-.main {
-    display: flex;
-    justify-content: center;
-    padding: 15rem;
-    align-items: center;
-    height: 100vh;
-    background: var(--primary-color);
-    color: white;
-}
-
-.info {
-    padding-right: 1.5rem;
-    width: 40ch;
-    font-size: 2.5rem;
-}
-
-.heading {
-    font-size: 3rem;
-    padding-bottom: 5rem;
-}
-
-
-.nav>figure {
-    display: flex;
-    flex-grow: 1;
-    padding: 10rem;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.nav>figure>img {
-    width: 40rem;
-    height: 20rem;
-    border-radius: 5%;
-}
-
-.button {
-    width: 20rem;
-    border: none;
-    height: 3.5rem;
-    background: #eee;
-    color: #9CC5A1;
-    font-size: 2rem;
-    margin-top: 2rem;
-}
-
-.button:hover {
-    border: #eee 2px solid;
-    background: transparent;
-    color: #eee;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
 .page__front {
     display: flex;
     justify-content: center;
@@ -152,23 +68,6 @@ main {
 }
 
 
-
-
-
-.agenda__cards2 {
-    background: var(--secondary-color);
-    width: 30rem;
-    height: 30rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 3rem;
-    border-bottom-right-radius: 3rem;
-    color: #707070;
-}
-
-
-
 .main__heading {
     z-index: 3;
     position: absolute;
@@ -200,8 +99,4 @@ main {
     left: 3rem;
     font-size: 2.5rem;
     gap: 2rem;
-}
-
-.nav__text {
-    font-size: 2.5rem;
 }

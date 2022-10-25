@@ -1,5 +1,6 @@
-@use "./abstract/colors";
-.footer{
+@use "../../abstract/colors";
+
+.footer {
     background-color: colors.$background-body;
     padding: 3rem 0;
     display: flex;
@@ -9,43 +10,44 @@
     padding: 5rem;
 }
 
-.footer__section{
-padding-top: 50rem;
+.footer__section {
+    padding-left: 15rem;
+    padding-right: 15rem;
 }
 
-.footer__logos{
+.footer__logos {
     display: flex;
     flex-direction: row;
     padding-top: 1rem;
     width: 1rem;
 }
 
-.footer__images{
+.footer__images {
     height: 6rem;
     padding: 1rem;
 }
 
-.form__ul{
+.form__ul {
     list-style-type: none;
-    
+
 }
 
-.form__ul li{
+.form__ul li {
     padding-top: 1rem;
-    
+
 }
 
-.form__ul li a{
+.form__ul li a {
     text-decoration: none;
 }
 
 
-.form__h2{
+.form__h2 {
     padding-top: 2rem;
     border-bottom: 2px solid black;
 }
 
-.formulier{
+.formulier {
     width: 30rem;
     height: 30rem;
     background: lightslategray;
@@ -59,13 +61,13 @@ padding-top: 50rem;
 }
 
 
-.formulier div{
+.formulier div {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.form__input{
+.form__input {
     display: block;
     width: 100%;
     padding: 1rem 2rem;
@@ -75,7 +77,7 @@ padding-top: 50rem;
     background: #EEEEEE;
 }
 
-.submit{
+.submit {
     background: green;
     border-radius: 0.8rem;
     color: white;
@@ -83,6 +85,6 @@ padding-top: 50rem;
     height: 5rem;
 }
 
-.submit:hover{
+.submit:hover {
     cursor: pointer;
 }
