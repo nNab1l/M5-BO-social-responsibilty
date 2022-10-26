@@ -1,13 +1,13 @@
 @use "../../abstract/colors";
 @use "../../abstract/mixins";
 
-.header{
+.header {
     width: 100%;
     margin: auto;
     background: colors.$front_page--header;
 }
 
-.header__nav{
+.header__nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -15,37 +15,37 @@
     padding: 0rem 2rem;
 }
 
-.header__figure{
+.header__figure {
     height: 7rem;
     width: 15rem;
 }
 
-.header__img{
+.header__img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.header__ul{
+.header__ul {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
 }
 
-.header__listItem{
+.header__listItem {
     list-style: none;
     padding: 1rem;
     border-radius: 2rem;
 }
 
-.listItem__link{
+.listItem__link {
     text-decoration: none;
     color: colors.$grey;
     position: relative;
 }
 
-.listItem__link:after{
+.listItem__link:after {
     content: "";
     position: absolute;
     background: #42855B;
@@ -56,15 +56,15 @@
     transition: 0.3s;
 }
 
-.listItem__link:hover{
+.listItem__link:hover {
     color: black;
 }
 
-.listItem__link:hover:after{
+.listItem__link:hover:after {
     width: 100%;
 }
 
-.header__button{
+.header__button {
     width: 5rem;
     height: 4rem;
     font-size: 3rem;
