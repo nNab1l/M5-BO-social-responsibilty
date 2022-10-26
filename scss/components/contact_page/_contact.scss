@@ -1,0 +1,62 @@
+@use "../../abstract/colors";
+
+.contactformulier__body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: #222831;
+    color: #EEEEEE;
+}
+
+.contactformulier{
+    width: 80rem;
+    min-height: 40rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 4rem;
+    font-size: 3rem;
+    gap: 2rem;
+}
+
+.contactformulier label{
+    border-bottom: 0.2rem solid lightgreen;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    background: #EEEEEE;
+}
+
+textarea{
+    height: 23ch;
+    width: 100%;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    font-family: sans-serif;
+    padding: 1rem 2rem;
+    resize: none;
+    background: #EEEEEE;
+}
+
+.submit{
+    background: #00ADB5;
+    color: #EEEEEE;
+    font-size: 1.6rem;
+    border: none;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
