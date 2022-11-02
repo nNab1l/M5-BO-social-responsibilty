@@ -21,7 +21,7 @@ body {
 .header {
   width: 100%;
   margin: auto;
-  background: #D9F8C4;
+  background: #9be98e;
 }
 
 .header__nav {
@@ -99,14 +99,12 @@ body {
   border: 0.2rem solid rgb(144, 238, 144);
   border-radius: 1.5rem;
   cursor: pointer;
-  box-shadow: 0 0 2rem rgba(144, 238, 144, 0.6);
   transition: 0.3s;
 }
 
 .header__signUp:hover {
   color: black;
-  box-shadow: 0 0 20px rgba(144, 238, 144, 0.6);
-  background-color: rgb(144, 238, 144);
+  background-color: #9be98e;
 }
 
 .header__input {
@@ -123,7 +121,6 @@ body {
   border-top-right-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
   background: #eee;
-  box-shadow: 0 0 2rem rgba(144, 238, 144, 0.6);
   border: 0.2rem solid rgb(144, 238, 144);
 }
 
@@ -144,7 +141,7 @@ body {
   margin-left: 22rem;
   padding-top: 1rem;
   text-align: center;
-  background: rgb(144, 238, 144);
+  background: #9be98e;
   font-size: 3rem;
   z-index: 1;
   border-radius: 1.5rem;
@@ -179,7 +176,7 @@ body {
   width: 22rem;
   margin: 2.5rem 8rem;
   position: relative;
-  box-shadow: 0 0 2rem 9px #d7ffbc;
+  border: 0.1rem solid #9be98e;
   border-radius: 3rem;
 }
 
@@ -198,7 +195,7 @@ body {
   position: absolute;
   width: 11rem;
   height: 100%;
-  background: linear-gradient(to right, #90d861, #D9F8C4);
+  background: #9be98e;
   border-radius: 3rem;
   transition: 0.5s;
 }
@@ -222,7 +219,7 @@ body {
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #9be98e;
   background: transparent;
 }
 
@@ -243,7 +240,7 @@ span {
   cursor: pointer;
   display: block;
   margin: auto;
-  background: linear-gradient(to right, #90d861, #D9F8C4);
+  background: #9be98e;
   border: none;
   border-radius: 3rem;
 }
@@ -261,7 +258,7 @@ span {
   max-width: 100%;
   height: 12vh;
   margin: auto;
-  background: rgba(217, 248, 196, 0.4);
+  background: #e3f9e0;
 }
 
 .container__header {
@@ -460,7 +457,7 @@ span {
 }
 
 .footer {
-  background-color: rgba(217, 248, 196, 0.4);
+  background-color: #e3f9e0;
   padding: 3rem 0;
   display: flex;
   justify-content: space-between;
@@ -649,7 +646,7 @@ span {
     padding-bottom: 1rem;
   }
   .header__listItem:hover {
-    background: #D9F8C4;
+    background: #9be98e;
     border-radius: 1rem;
     padding-top: 1rem;
   }
