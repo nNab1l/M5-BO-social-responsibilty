@@ -43,7 +43,17 @@
     .footer{
         flex-direction: column;
     }
+    .footer__section{
+        padding: 3rem;
+        margin-right: auto;
+
+    }
+    .footer__images{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
+
 
 
 @media  screen and (max-width: 62.5rem) { // 1000 pixels
