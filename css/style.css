@@ -399,17 +399,17 @@ span {
   gap: 2rem;
 }
 
-.contactformulier__body {
+.main__contactformulier {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
-  background: #222831;
+  background: #8EC3B0;
   color: #EEEEEE;
 }
 
 .contactformulier {
-  width: 80rem;
+  width: 70rem;
   min-height: 40rem;
   display: flex;
   justify-content: flex-start;
@@ -418,27 +418,23 @@ span {
   font-size: 3rem;
   gap: 2rem;
 }
-
-.contactformulier label {
-  border-bottom: 0.2rem solid lightgreen;
-}
-
-form div {
+.contactformulier__item {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-
-input {
+.contactformulier__item--label {
+  border-bottom: 0.2rem solid lightgreen;
+}
+.contactformulier__item--input {
   display: block;
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   font-size: 1.6rem;
   border: 1px solid black;
   background: #EEEEEE;
 }
-
-textarea {
+.contactformulier__item--area {
   height: 23ch;
   width: 100%;
   font-size: 1.6rem;
@@ -447,6 +443,9 @@ textarea {
   padding: 1rem 2rem;
   resize: none;
   background: #EEEEEE;
+}
+.contactformulier__item--select {
+  padding: 0.5rem 1rem;
 }
 
 .submit {
@@ -571,6 +570,14 @@ textarea {
   }
   .footer {
     flex-direction: column;
+  }
+  .footer__section {
+    padding: 3rem;
+    margin-right: auto;
+  }
+  .footer__images {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (max-width: 62.5rem) {
