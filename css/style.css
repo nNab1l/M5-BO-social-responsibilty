@@ -21,7 +21,7 @@ body {
 .header {
   width: 100%;
   margin: auto;
-  background: #D9F8C4;
+  background: #9be98e;
 }
 
 .header__nav {
@@ -99,14 +99,12 @@ body {
   border: 0.2rem solid rgb(144, 238, 144);
   border-radius: 1.5rem;
   cursor: pointer;
-  box-shadow: 0 0 2rem rgba(144, 238, 144, 0.6);
   transition: 0.3s;
 }
 
 .header__signUp:hover {
   color: black;
-  box-shadow: 0 0 20px rgba(144, 238, 144, 0.6);
-  background-color: rgb(144, 238, 144);
+  background-color: #9be98e;
 }
 
 .header__input {
@@ -123,7 +121,6 @@ body {
   border-top-right-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
   background: #eee;
-  box-shadow: 0 0 2rem rgba(144, 238, 144, 0.6);
   border: 0.2rem solid rgb(144, 238, 144);
 }
 
@@ -144,7 +141,7 @@ body {
   margin-left: 22rem;
   padding-top: 1rem;
   text-align: center;
-  background: rgb(144, 238, 144);
+  background: #9be98e;
   font-size: 3rem;
   z-index: 1;
   border-radius: 1.5rem;
@@ -161,7 +158,7 @@ body {
   padding: 0.5rem;
   overflow: hidden;
   border-radius: 2rem;
-  z-index: 1;
+  z-index: 2;
   display: block;
 }
 
@@ -179,7 +176,7 @@ body {
   width: 22rem;
   margin: 2.5rem 8rem;
   position: relative;
-  box-shadow: 0 0 2rem 9px #d7ffbc;
+  border: 0.1rem solid #9be98e;
   border-radius: 3rem;
 }
 
@@ -198,7 +195,7 @@ body {
   position: absolute;
   width: 11rem;
   height: 100%;
-  background: linear-gradient(to right, #90d861, #D9F8C4);
+  background: #9be98e;
   border-radius: 3rem;
   transition: 0.5s;
 }
@@ -222,7 +219,7 @@ body {
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #9be98e;
   background: transparent;
 }
 
@@ -243,7 +240,7 @@ span {
   cursor: pointer;
   display: block;
   margin: auto;
-  background: linear-gradient(to right, #90d861, #D9F8C4);
+  background: #9be98e;
   border: none;
   border-radius: 3rem;
 }
@@ -261,7 +258,7 @@ span {
   max-width: 100%;
   height: 12vh;
   margin: auto;
-  background: rgba(217, 248, 196, 0.4);
+  background: #e3f9e0;
 }
 
 .container__header {
@@ -399,17 +396,17 @@ span {
   gap: 2rem;
 }
 
-.contactformulier__body {
+.main__contactformulier {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
-  background: #222831;
+  background: #8EC3B0;
   color: #EEEEEE;
 }
 
 .contactformulier {
-  width: 80rem;
+  width: 70rem;
   min-height: 40rem;
   display: flex;
   justify-content: flex-start;
@@ -418,27 +415,23 @@ span {
   font-size: 3rem;
   gap: 2rem;
 }
-
-.contactformulier label {
-  border-bottom: 0.2rem solid lightgreen;
-}
-
-form div {
+.contactformulier__item {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-
-input {
+.contactformulier__item--label {
+  border-bottom: 0.2rem solid lightgreen;
+}
+.contactformulier__item--input {
   display: block;
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   font-size: 1.6rem;
   border: 1px solid black;
   background: #EEEEEE;
 }
-
-textarea {
+.contactformulier__item--area {
   height: 23ch;
   width: 100%;
   font-size: 1.6rem;
@@ -447,6 +440,9 @@ textarea {
   padding: 1rem 2rem;
   resize: none;
   background: #EEEEEE;
+}
+.contactformulier__item--select {
+  padding: 0.5rem 1rem;
 }
 
 .submit {
@@ -461,7 +457,7 @@ textarea {
 }
 
 .footer {
-  background-color: rgba(217, 248, 196, 0.4);
+  background-color: #e3f9e0;
   padding: 3rem 0;
   display: flex;
   justify-content: space-between;
@@ -545,6 +541,12 @@ textarea {
 }
 
 @media screen and (max-width: 75rem) {
+  .container {
+    max-width: 100%;
+    height: 21vh;
+    margin: auto;
+    background: rgba(217, 248, 196, 0.4);
+  }
   .container__header {
     display: flex;
     justify-content: space-evenly;
@@ -558,19 +560,24 @@ textarea {
   .header__searchbar {
     width: 85%;
   }
-  .container__p {
-    width: 35rem;
-    height: 50rem;
-    padding: 2rem;
-    background: #FFF5E4;
+  .signUp {
+    left: 34%;
   }
   .container__figure {
-    width: 75rem;
+    width: 100%;
     height: 40rem;
     background: grey;
   }
   .footer {
     flex-direction: column;
+  }
+  .footer__section {
+    padding: 3rem;
+    margin-right: auto;
+  }
+  .footer__images {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (max-width: 62.5rem) {
@@ -587,19 +594,32 @@ textarea {
     max-width: 144rem;
     flex-wrap: wrap;
   }
-  .container__p {
-    width: 87rem;
-    height: 30rem;
-    padding: 2rem;
-    background: #FFF5E4;
-  }
   .container__figure {
-    width: 88rem;
+    width: 100%;
     height: 40rem;
     background: grey;
   }
 }
+@media screen and (max-width: 56.25rem) {
+  .container__figure {
+    width: 100%;
+    height: 40rem;
+    background: grey;
+  }
+  .container__p {
+    width: 38%;
+  }
+  .signUp {
+    left: 30%;
+  }
+}
 @media screen and (max-width: 53.123rem) {
+  .container {
+    max-width: 100%;
+    height: 30vh;
+    margin: auto;
+    background: rgba(217, 248, 196, 0.4);
+  }
   .header__listItem {
     margin: 0 auto;
     width: 90%;
@@ -626,9 +646,12 @@ textarea {
     padding-bottom: 1rem;
   }
   .header__listItem:hover {
-    background: #D9F8C4;
+    background: #9be98e;
     border-radius: 1rem;
     padding-top: 1rem;
+  }
+  .signUp {
+    left: 28%;
   }
   .listItem__link:after {
     content: "";
@@ -660,6 +683,56 @@ textarea {
     z-index: 2;
     box-shadow: 0 5px 1.2rem rgba(0, 0, 0, 0.2);
   }
+}
+@media screen and (max-width: 43.75rem) {
+  .signUp {
+    left: 20%;
+  }
+  .container__body {
+    background: linear-gradient(360deg, rgba(27, 27, 27, 0.8), 40%, rgba(233, 69, 96, 0) 50%);
+  }
+  .container__p {
+    font-size: 100%;
+    width: 90%;
+    padding-top: 23rem;
+  }
+}
+@media screen and (max-width: 43.75rem) {
+  .signUp {
+    left: 15%;
+  }
+}
+@media screen and (max-width: 31.25rem) {
+  .signUp {
+    left: 5%;
+  }
+}
+@media screen and (max-width: 25rem) {
+  .container {
+    height: 30vh;
+  }
+  .container__p {
+    width: 90%;
+  }
+  .signUp {
+    z-index: 2;
+    left: 3%;
+  }
+}
+.signUp__checkbox {
+  width: 5%;
+}
+
+.signUp__span--psw {
+  right: 46%;
+}
+
+.signUp__span--agree {
+  right: 27%;
+}
+
+.container__p {
+  font-size: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

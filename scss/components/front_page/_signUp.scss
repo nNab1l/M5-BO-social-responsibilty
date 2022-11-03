@@ -9,14 +9,12 @@
     border: 0.2rem solid rgba(144, 238, 144, 1);
     border-radius: 1.5rem;
     cursor: pointer;
-    box-shadow: 0 0 2rem rgba(144, 238, 144, 0.6);
     transition: 0.3s;
 }
 
 .header__signUp:hover {
     color: black;
-    box-shadow: 0 0 20px rgba(144, 238, 144, 0.6);
-    background-color: rgba(144, 238, 144, 1);
+    background-color: colors.$front_page--header;
 }
 
 .header__input {
@@ -33,7 +31,6 @@
     border-top-right-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
     background: colors.$signUp-white;
-    box-shadow: 0 0 2rem rgba(144, 238, 144, 0.6);
     border: 0.2rem solid rgba(144, 238, 144, 1);
 }
 
@@ -54,7 +51,7 @@
     margin-left: 22rem;
     padding-top: 1rem;
     text-align: center;
-    background: rgb(144, 238, 144);
+    background: #9be98e;
     font-size: 3rem;
     z-index: 1;
     border-radius: 1.5rem;
