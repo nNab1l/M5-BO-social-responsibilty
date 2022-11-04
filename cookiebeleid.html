@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactpagina</title>
+    <meta name="description" content="">
+    <title>Cookiebeleid</title>
+    <script src="js/main.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -17,7 +19,7 @@
             </figure>
             <ul class="header__ul">
                 <li class="header__listItem">
-                    <a class="listItem__link" href="/front_page.html">Over Markant</a>
+                    <a class="listItem__link" href="">Over Markant</a>
                 </li>
                 <li class="header__listItem">
                     <a class="listItem__link" href="/agenda.html">Agenda</a>
@@ -36,38 +38,12 @@
                     class="fa-solid fa-xmark xMark"></i></button>
         </nav>
     </header>
-    <main class="main__contactformulier">
-        
-        <form class="contactformulier">
-            <div class="contactformulier__item">
-                <label class="contactformulier__item contactformulier__item--label" for="naam">Naam</label>
-                <input class="contactformulier__item contactformulier__item--input"  id="naam" type="text">
-            </div>
-            <div class="contactformulier__item">
-                <label class="contactformulier__item contactformulier__item--label" for="email">Email</label>
-                <input class="contactformulier__item contactformulier__item--input" id="email" type="email">
-            </div>
-            <div class="contactformulier__item">
-                <label class="contactformulier__item contactformulier__item--label" for="telefoon">Telefoonnummer</label>
-                <input class="contactformulier__item contactformulier__item--input" id="telefoon" type="text">
-            </div>
-            <div class="contactformulier__item">
-                <label class="contactformulier__item contactformulier__item--label" for="telefoon">Ik ben een:</label>
-                <select class="contactformulier__item contactformulier__item--select" name="" id="">
-                    <option value="mantelzorger">Mantelzorger</option>
-                    <option value="zorgvrager">Zorgvrager</option>
-                    <option value="zorgprofessional">Zorgprofessional</option>
-                    <option value="vrijwilliger">Vrijwilliger</option>
-                    <option value="organisatie">Bedrijf of organisatie</option>
-                    <option value="geen">Geen van deze opties</option>
-                </select>
-            </div>
-            <div class="contactformulier__item">
-                <label class="contactformulier__item contactformulier__item--label" for="vraag">vraag / opmerking</label>
-                <textarea class="contactformulier__item contactformulier__item--area" id="vraag" class="bigText"></textarea>
-            </div class="contactformulier__item">
-            <input class="submit" type="submit" value="📧 Versturen">
-        </form>
+    <main>
+        <article class="main__voorwaarden">
+            <p id="js--cookiebeleid">
+                Let op! Deze text is niet opgehaald door JSON, Gebruik liveserver Aub.
+            </p>
+        </article>
     </main>
     <footer class="footer">
 
@@ -141,5 +117,4 @@
         </section>
     </footer>
 </body>
-
 </html>
