@@ -970,6 +970,7 @@ span {
   right: 45rem;
   font-size: 3rem;
   color: #707070;
+  max-width: 100%;
 }
 
 .agenda__button {
@@ -1071,6 +1072,7 @@ span {
   }
   .agenda__title {
     max-width: 100%;
+    right: 30rem;
   }
   .agenda__paragraph {
     max-width: 100%;
