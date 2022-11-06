@@ -54,7 +54,7 @@
 
 
 .main__cards {
-    width: 66rem;
+    width: 100rem;
     height: 35rem;
     display: flex;
     justify-content: center;
@@ -64,6 +64,7 @@
     margin-bottom: 10rem;
     position: relative;
     border-top: 0.2rem #9CC5A1 solid;
+    flex-wrap: wrap;
 
 }
 
@@ -79,15 +80,16 @@
 .main__date {
     z-index: 3;
     position: absolute;
-    top: 20rem;
+    top: 37rem;
     left: 3rem;
     font-size: 2.5rem;
+    margin-top: 2rem;
 }
 
 .main__paragraph {
     z-index: 3;
     position: absolute;
-    top: 25rem;
+    top: 22rem;
     left: 3rem;
     font-size: 2.5rem;
 }

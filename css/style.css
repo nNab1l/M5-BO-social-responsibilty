@@ -351,7 +351,7 @@ span {
 }
 
 .main__cards {
-  width: 66rem;
+  width: 100rem;
   height: 35rem;
   display: flex;
   justify-content: center;
@@ -361,6 +361,7 @@ span {
   margin-bottom: 10rem;
   position: relative;
   border-top: 0.2rem #9CC5A1 solid;
+  flex-wrap: wrap;
 }
 
 .main__heading {
@@ -374,15 +375,16 @@ span {
 .main__date {
   z-index: 3;
   position: absolute;
-  top: 20rem;
+  top: 37rem;
   left: 3rem;
   font-size: 2.5rem;
+  margin-top: 2rem;
 }
 
 .main__paragraph {
   z-index: 3;
   position: absolute;
-  top: 25rem;
+  top: 22rem;
   left: 3rem;
   font-size: 2.5rem;
 }
@@ -770,6 +772,18 @@ span {
   background: var(--secondary-color);
 }
 
+.agenda__card {
+  list-style: none;
+  position: relative;
+  top: 3rem;
+}
+
+.agenda__card2 {
+  list-style: none;
+  position: relative;
+  top: 3rem;
+}
+
 .page__card {
   background: var(--secondary-color);
   width: 80rem;
@@ -807,13 +821,13 @@ span {
 }
 */
 .agenda__cards4:hover {
-  width: 76rem;
+  width: 84rem;
   transition: 0.3s;
   border-right: 4rem solid #9CC5A1;
 }
 
 .agenda__cards:hover {
-  width: 80rem;
+  width: 84rem;
   transition: 0.3s;
   border-left: 4rem solid #9CC5A1;
 }
@@ -827,13 +841,14 @@ span {
   align-items: center;
   border-top-right-radius: 3rem;
   border-bottom-right-radius: 3rem;
+  border-right: #9CC5A1 solid 3rem;
   color: #707070;
   box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .agenda__cards3 {
   background: white;
-  width: 36rem;
+  width: 30rem;
   height: 40rem;
   display: flex;
   justify-content: center;
@@ -841,12 +856,13 @@ span {
   color: #707070;
   border-top-left-radius: 3rem;
   border-bottom-left-radius: 3rem;
+  border-left: #9CC5A1 solid 3rem;
   box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .agenda__cards4 {
   background: white;
-  width: 70rem;
+  width: 76rem;
   height: 40rem;
   display: flex;
   justify-content: center;
@@ -880,31 +896,18 @@ span {
   border-radius: 0rem;
 }
 
-.agenda__heading {
-  z-index: 3;
-  left: 6rem;
+.agenda__h2 {
   position: relative;
-  bottom: 12rem;
-  font-size: 2.5rem;
-  width: 300ch;
+  bottom: 5rem;
 }
 
-.agenda__paragraph {
-  z-index: 3;
-  right: 23rem;
+.agenda__d {
   position: relative;
-  top: 4rem;
-  width: 500ch;
-  font-size: 1.7rem;
+  bottom: 2rem;
 }
 
-.agenda__paragraph2 {
-  z-index: 3;
-  right: 21rem;
+.agenda__p {
   position: relative;
-  top: 4rem;
-  width: 500ch;
-  font-size: 1.7rem;
 }
 
 .agenda__title {
@@ -919,8 +922,20 @@ span {
 
 .agenda__button {
   position: relative;
-  top: 19;
-  left: 4.2rem;
+  bottom: 10rem;
+  right: 42rem;
+  border: none;
+  background: none;
+  width: 100%;
+  height: 4rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.agenda__button4 {
+  position: relative;
+  bottom: 13rem;
+  right: 42rem;
   border: none;
   background: none;
   width: 100%;
@@ -931,15 +946,28 @@ span {
 
 .agenda__button2 {
   position: relative;
-  top: 19;
-  right: 73rem;
+  bottom: 10rem;
+  left: 72.5rem;
   border: none;
   background: none;
-  width: 100%;
   height: 4rem;
   color: white;
   font-size: 2rem;
   text-decoration: none;
+  z-index: 10;
+}
+
+.agenda__button3 {
+  position: relative;
+  bottom: 10rem;
+  left: 69rem;
+  border: none;
+  background: none;
+  height: 4rem;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  z-index: 10;
 }
 
 .agenda__date {
@@ -962,6 +990,39 @@ span {
   color: #707070;
   font-size: 1.7rem;
   text-decoration: none;
+}
+
+@media screen and (max-width: 90rem) {
+  .agenda__cards2 {
+    display: none;
+  }
+  .agenda__cards3 {
+    display: none;
+  }
+  .page__front {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .agenda__cards {
+    max-width: 100%;
+    height: 40rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+  }
+  .agenda__cards4 {
+    max-width: 100%;
+    height: 40rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+  }
+  .agenda__title {
+    max-width: 100%;
+  }
+  .agenda__paragraph {
+    max-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
