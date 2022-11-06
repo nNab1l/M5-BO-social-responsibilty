@@ -43,7 +43,13 @@
         margin-left: 10rem;
         margin-right: 10rem;
     }
-
+    .main__contactformulier{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contactformulier__informatie{
+        width: 100%;
+    }
     .footer{
         flex-direction: column;
     }
@@ -184,6 +190,11 @@
                 z-index: 2;
                 box-shadow: 0 5px 1.2rem rgba(0,0,0, 0.2) ;
             }
+    }
+
+    .contactformulier{
+        padding: 2rem;
+        width: 100%;
     }
 }
 

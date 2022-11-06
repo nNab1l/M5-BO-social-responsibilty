@@ -417,6 +417,7 @@ span {
   font-family: sans-serif;
   background: #EEEEEE;
   color: #EEEEEE;
+  gap: 4rem;
 }
 
 .contactformulier {
@@ -431,8 +432,15 @@ span {
   font-size: 3rem;
   gap: 2rem;
   border-radius: 3rem;
-  background: #8EC3B0;
-  box-shadow: 5rem 25rem 15rem rgba(0, 0, 0, 0.15);
+  color: black;
+  box-shadow: 25rem 25rem 25rem 25rem rgba(0, 0, 0, 0.1);
+}
+.contactformulier__informatie {
+  font-size: 1.8rem;
+  color: black;
+  margin-bottom: 3rem;
+  width: 50%;
+  padding: 4rem;
 }
 .contactformulier__item {
   display: flex;
@@ -440,6 +448,7 @@ span {
   gap: 1rem;
 }
 .contactformulier__item--label {
+  font-size: 2.5rem;
   border-bottom: 0.2rem solid lightgreen;
 }
 .contactformulier__item--input {
@@ -518,7 +527,7 @@ span {
 .formulier {
   width: 30rem;
   height: 30rem;
-  background: lightslategray;
+  background: #EEEEEE;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -526,6 +535,7 @@ span {
   font-size: 3rem;
   gap: 2rem;
   border-radius: 1.4rem;
+  box-shadow: 25rem 25rem 25rem 25rem rgba(0, 0, 0, 0.1);
 }
 
 .formulier div {
@@ -590,6 +600,13 @@ span {
   .main__voorwaarden {
     margin-left: 10rem;
     margin-right: 10rem;
+  }
+  .main__contactformulier {
+    flex-direction: column;
+    width: 100%;
+  }
+  .contactformulier__informatie {
+    width: 100%;
   }
   .footer {
     flex-direction: column;
@@ -704,6 +721,10 @@ span {
     background: white;
     z-index: 2;
     box-shadow: 0 5px 1.2rem rgba(0, 0, 0, 0.2);
+  }
+  .contactformulier {
+    padding: 2rem;
+    width: 100%;
   }
 }
 @media screen and (max-width: 43.75rem) {

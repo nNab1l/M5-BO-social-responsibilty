@@ -7,6 +7,7 @@
     font-family: sans-serif;
     background: #EEEEEE;
     color: #EEEEEE;
+    gap: 4rem;
     
 }
 
@@ -22,15 +23,23 @@
     font-size: 3rem;
     gap: 2rem;
     border-radius: 3rem;
-    background: #8EC3B0;
-    box-shadow: 5rem 25rem 15rem rgb(0 0 0 / 15%);
+    color: black;
+    box-shadow: 25rem 25rem 25rem 25rem rgb(0 0 0 / 10%);
 
+    &__informatie{
+        font-size: 1.8rem;
+        color: black;
+        margin-bottom: 3rem;
+        width: 50%;
+        padding: 4rem;
+    }
     &__item{
         display: flex;
         flex-direction: column;
         gap: 1rem;
 
         &--label{
+            font-size: 2.5rem;
             border-bottom: 0.2rem solid lightgreen;
         }
 
