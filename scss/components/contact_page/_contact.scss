@@ -5,12 +5,15 @@
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
-    background: #8EC3B0;
+    background: #EEEEEE;
     color: #EEEEEE;
+    gap: 4rem;
     
 }
 
 .contactformulier{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     width: 70rem;
     min-height: 40rem;
     display: flex;
@@ -19,13 +22,24 @@
     padding: 4rem;
     font-size: 3rem;
     gap: 2rem;
+    border-radius: 3rem;
+    color: black;
+    box-shadow: 25rem 25rem 25rem 25rem rgb(0 0 0 / 10%);
 
+    &__informatie{
+        font-size: 1.8rem;
+        color: black;
+        margin-bottom: 3rem;
+        width: 50%;
+        padding: 4rem;
+    }
     &__item{
         display: flex;
         flex-direction: column;
         gap: 1rem;
 
         &--label{
+            font-size: 2.5rem;
             border-bottom: 0.2rem solid lightgreen;
         }
 
@@ -35,7 +49,7 @@
             padding: 0.5rem 1rem;
             font-size: 1.6rem;
             border: 1px solid black;
-            background: #EEEEEE;
+            background: rgb(242, 235, 235);
         }
 
         &--area{
@@ -46,10 +60,11 @@
             font-family: sans-serif;
             padding: 1rem 2rem;
             resize: none;
-            background: #EEEEEE;
+            background: rgb(242, 235, 235);
         }
 
         &--select{
+            background: rgb(242, 235, 235);
             padding: 0.5rem 1rem;
         }
     }

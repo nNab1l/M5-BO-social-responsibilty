@@ -398,16 +398,33 @@ span {
   gap: 2rem;
 }
 
+.main__voorwaarden {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 35rem;
+  margin-left: 35rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  outline: auto;
+  padding: 1.3rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.15);
+}
+
 .main__contactformulier {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
-  background: #8EC3B0;
+  background: #EEEEEE;
   color: #EEEEEE;
+  gap: 4rem;
 }
 
 .contactformulier {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   width: 70rem;
   min-height: 40rem;
   display: flex;
@@ -416,6 +433,16 @@ span {
   padding: 4rem;
   font-size: 3rem;
   gap: 2rem;
+  border-radius: 3rem;
+  color: black;
+  box-shadow: 25rem 25rem 25rem 25rem rgba(0, 0, 0, 0.1);
+}
+.contactformulier__informatie {
+  font-size: 1.8rem;
+  color: black;
+  margin-bottom: 3rem;
+  width: 50%;
+  padding: 4rem;
 }
 .contactformulier__item {
   display: flex;
@@ -423,6 +450,7 @@ span {
   gap: 1rem;
 }
 .contactformulier__item--label {
+  font-size: 2.5rem;
   border-bottom: 0.2rem solid lightgreen;
 }
 .contactformulier__item--input {
@@ -431,7 +459,7 @@ span {
   padding: 0.5rem 1rem;
   font-size: 1.6rem;
   border: 1px solid black;
-  background: #EEEEEE;
+  background: rgb(242, 235, 235);
 }
 .contactformulier__item--area {
   height: 23ch;
@@ -441,9 +469,10 @@ span {
   font-family: sans-serif;
   padding: 1rem 2rem;
   resize: none;
-  background: #EEEEEE;
+  background: rgb(242, 235, 235);
 }
 .contactformulier__item--select {
+  background: rgb(242, 235, 235);
   padding: 0.5rem 1rem;
 }
 
@@ -500,14 +529,15 @@ span {
 .formulier {
   width: 30rem;
   height: 30rem;
-  background: lightslategray;
+  background: #EEEEEE;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   padding: 4rem;
   font-size: 3rem;
   gap: 2rem;
-  border-radius: 2.5rem;
+  border-radius: 1.4rem;
+  box-shadow: 25rem 25rem 25rem 25rem rgba(0, 0, 0, 0.1);
 }
 
 .formulier div {
@@ -522,13 +552,12 @@ span {
   padding: 1rem 2rem;
   font-size: 1.6rem;
   border: 0.1rem solid black;
-  border-radius: 0.8rem;
+  border-radius: 0.4rem;
   background: #EEEEEE;
 }
 
 .submit {
   background: green;
-  border-radius: 0.8rem;
   color: white;
   width: 100%;
   height: 5rem;
@@ -570,11 +599,21 @@ span {
     height: 40rem;
     background: grey;
   }
+  .main__voorwaarden {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .main__contactformulier {
+    flex-direction: column;
+    width: 100%;
+  }
+  .contactformulier__informatie {
+    width: 100%;
+  }
   .footer {
     flex-direction: column;
   }
   .footer__section {
-    padding: 3rem;
     margin-right: auto;
   }
   .footer__images {
@@ -685,6 +724,10 @@ span {
     z-index: 2;
     box-shadow: 0 5px 1.2rem rgba(0, 0, 0, 0.2);
   }
+  .contactformulier {
+    padding: 2rem;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 43.75rem) {
   .signUp {
@@ -698,10 +741,19 @@ span {
     width: 90%;
     padding-top: 23rem;
   }
+  .main__voorwaarden {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
 }
 @media screen and (max-width: 43.75rem) {
   .signUp {
     left: 15%;
+  }
+  .footer__iframe {
+    width: auto;
   }
 }
 @media screen and (max-width: 31.25rem) {

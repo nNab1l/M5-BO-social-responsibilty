@@ -39,12 +39,21 @@
         height: 40rem;
         background: grey;
     }
-
+    .main__voorwaarden{
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    .main__contactformulier{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contactformulier__informatie{
+        width: 100%;
+    }
     .footer{
         flex-direction: column;
     }
     .footer__section{
-        padding: 3rem;
         margin-right: auto;
 
     }
@@ -182,6 +191,11 @@
                 box-shadow: 0 5px 1.2rem rgba(0,0,0, 0.2) ;
             }
     }
+
+    .contactformulier{
+        padding: 2rem;
+        width: 100%;
+    }
 }
 
 // 700 pixels
@@ -200,6 +214,12 @@
         padding-top: 23rem;
     
     }
+    .main__voorwaarden{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
 }
 
 
@@ -208,6 +228,9 @@
 @media screen and (max-width:43.75rem){
     .signUp{
         left: 15%;
+    }
+    .footer__iframe{
+        width: auto;
     }
 }
 
