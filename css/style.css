@@ -398,6 +398,38 @@ span {
   gap: 2rem;
 }
 
+@media screen and (max-width: 60rem) {
+  .main__date {
+    margin-top: 5rem;
+    font-size: 2.1rem;
+  }
+  .main__cards {
+    max-width: 100%;
+  }
+  .main__paragraph {
+    font-size: 2.1rem;
+  }
+}
+@media screen and (max-width: 40rem) {
+  .main__date {
+    margin-top: 15rem;
+    font-size: 2.1rem;
+  }
+  .main__cards {
+    height: 50rem;
+  }
+  .main__cards {
+    max-width: 100%;
+  }
+  .main__paragraph {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .main__heading {
+    font-size: 2.5rem;
+  }
+}
 .main__voorwaarden {
   display: flex;
   justify-content: center;
@@ -1001,7 +1033,7 @@ span {
 .agenda__button2 {
   position: relative;
   bottom: 10rem;
-  left: 72.5rem;
+  left: 74rem;
   border: none;
   background: none;
   height: 4rem;
@@ -1014,7 +1046,7 @@ span {
 .agenda__button3 {
   position: relative;
   bottom: 10rem;
-  left: 69rem;
+  left: 72.5rem;
   border: none;
   background: none;
   height: 4rem;

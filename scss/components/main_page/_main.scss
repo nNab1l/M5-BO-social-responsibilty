@@ -102,3 +102,45 @@
     font-size: 2.5rem;
     gap: 2rem;
 }
+
+@media screen and (max-width: 60rem){
+    .main__date{
+        margin-top: 5rem;
+        font-size: 2.1rem;
+    }
+
+    .main__cards{
+        max-width: 100%;
+    }
+
+   .main__paragraph{
+    font-size: 2.1rem;
+   }
+}
+
+
+@media screen and (max-width: 40rem){
+    .main__date{
+        margin-top: 15rem;
+        font-size: 2.1rem;
+    }
+
+    .main__cards{
+        height: 50rem;
+    }
+
+    .main__cards{
+        max-width: 100%;
+    }
+
+   .main__paragraph{
+        font-size: 1.8rem;
+        margin-top: 2rem;
+        width: 100%;
+   }
+
+   .main__heading{
+    font-size: 2.5rem;
+   }
+}
+
