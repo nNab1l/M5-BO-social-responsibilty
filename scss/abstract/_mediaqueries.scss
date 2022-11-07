@@ -8,7 +8,7 @@
 
     .container {
         max-width: 100%;
-        height: 21vh;
+        height: auto;
         margin: auto;
         background: rgba(217, 248, 196, 0.4);
       }
@@ -108,7 +108,7 @@
 
     .container {
         max-width: 100%;
-        height: 30vh;
+        height: auto;
         margin: auto;
         background: rgba(217, 248, 196, 0.4);
       }
@@ -244,7 +244,7 @@
 // 400px
 @media screen and (max-width:25rem) {
     .container{
-        height: 30vh;
+        height: auto;
     }
 
     .container__p{
