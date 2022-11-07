@@ -68,19 +68,19 @@
     width: 100%;
     padding: 1rem 2rem;
     font-size: 1.6rem;
-    border: 0.1rem solid black;
+    border: 0.1rem solid colors.$front_page--header;
     border-radius: 0.4rem;
     background: #EEEEEE;
 }
 
 .submit {
-    background: green;
-    
-    color: white;
+    background: #EEEEEE;
+    color: black;
     width: 100%;
     height: 5rem;
 }
 
 .submit:hover {
     cursor: pointer;
+    background: colors.$front_page--header;
 }
