@@ -519,6 +519,12 @@ span {
   cursor: pointer;
 }
 
+/* Kalender icon verwijderen */
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
 .footer {
   background-color: #e3f9e0;
   padding: 3rem 0;
@@ -528,14 +534,12 @@ span {
   list-style: none;
   padding: 5rem;
 }
-
 .footer__logos {
   display: flex;
   flex-direction: row;
   padding-top: 1rem;
   width: 1rem;
 }
-
 .footer__images {
   height: 6rem;
   padding: 1rem;

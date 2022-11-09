@@ -41,6 +41,7 @@
         &--label{
             font-size: 2.5rem;
             border-bottom: 0.2rem solid lightgreen;
+            
         }
 
         &--input{
@@ -79,4 +80,10 @@
 
 .submit:hover{
     cursor: pointer;
+}
+
+/* Kalender icon verwijderen */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
 }
